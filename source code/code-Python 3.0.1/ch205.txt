@@ -1,0 +1,6 @@
+Python在近年來已經成為現今成長速度最快的程式語言，
+根據TIOBE Programming Community Index for October 2008的排名，
+Python已經晉升成為第六名僅次於PHP之後並超越了Perl程式語言，
+並且現階段在國外許多大學都將Python程式語言列入授課課程，
+自從Python創始人Guido van Rossum在2005年十二月被Google雇用後並給予許多時間發展Python，
+至今已經有許多與Python相關的Google Tech Talks。

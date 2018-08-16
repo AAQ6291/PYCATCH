@@ -1,0 +1,22 @@
+# -*- coding: cp950 -*-
+
+# 更java.util籔java.lang甅ン
+from java.util import Random
+from java.lang import Math
+
+# ﹚竡subclass
+class myRand(Random):
+    #__init__()ㄧ计碞琌Java篶ㄧ计Constructor
+    def __init__(self, multiplier=100):
+        self.multiplier = multiplier
+
+    #滦更Override
+    def nextInt(self):
+        return Math.random() * self.multiplier
+
+# ミ龟ㄒ
+r = myRand(100)
+
+for i in range(10):
+    print r.nextInt()
+

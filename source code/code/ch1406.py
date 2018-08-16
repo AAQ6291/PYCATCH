@@ -1,0 +1,11 @@
+#!C:\Python26\python
+# -*- coding: cp950 -*-
+
+from distutils.core import setup, Extension
+ 
+myMoudle = Extension('fib', sources = ['ch1405.c'])
+ 
+setup (name = '禣ん计家舱',
+        version = '1.0',
+        description = '禣ん计家舱',
+        ext_modules = [myMoudle])

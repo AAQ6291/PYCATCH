@@ -1,0 +1,11 @@
+#!C:\Python26\python
+# -*- coding: cp950 -*-
+
+from distutils.core import setup, Extension
+ 
+myMoudle = Extension('my', sources = ['ch1402.c'])
+ 
+setup (name = '代刚家舱',
+        version = '1.0',
+        description = '硂琌иㄏノC粂ē级糶材家舱',
+        ext_modules = [myMoudle])

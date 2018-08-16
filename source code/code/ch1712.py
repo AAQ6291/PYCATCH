@@ -1,0 +1,58 @@
+#!/usr/bin/env python
+# -*- coding: cp950 -*-
+
+# 更wx家舱
+import wx
+
+class myApp(wx.App):
+   def OnInit(self):
+      frame = myFrame()
+      frame.Show()
+      return True
+   
+# ﹚竡myFrame膥┯wx.Frame摸
+class myFrame(wx.Frame):
+   def __init__(self):
+      wx.Frame.__init__(
+         self,
+         None,
+         -1,
+         'Up/Down秙',
+         size=(300, 150))
+
+      # ミpanel
+      panel = wx.Panel(self, -1)
+
+      # ミup/down秙
+      spinctrl = wx.SpinCtrl(
+         panel,
+         -1,
+         pos=(10, 20),
+         size=(60, -1))
+
+      # 砞﹚程籔程
+      spinctrl.SetRange(0, 100)
+
+      # 砞﹚秨﹍
+      spinctrl.SetValue(10)
+
+      # ミup/down秙
+      spinctrl1 = wx.SpinCtrl(
+         panel,
+         id = -1,
+         value = wx.EmptyString,
+         pos = (10, 50),
+         size = wx.DefaultSize,
+         style = wx.SP_ARROW_KEYS|wx.SP_WRAP,
+         min = 0,
+         max = 100,
+         initial = 0,
+         name = "mySpinCtrl")
+
+def main():
+   app = myApp()
+   app.MainLoop()
+   
+if __name__ == "__main__":
+   main()
+

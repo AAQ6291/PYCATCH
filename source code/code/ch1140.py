@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+#coding=cp950
+
+import sys
+
+print("祘Α嘿籔隔畖: %s" % (sys.argv[0]))
+
+if len(sys.argv) > 1:
+   print("块把计: \n")
+   for arg in sys.argv[1:]:
+      print(arg)
+else:
+   print("⊿Τヴ把计")
+   

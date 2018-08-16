@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<category>
+   <question id="1001">
+   <subject>如何用Python分析XML語法?</subject>
+   <description>可以使用xml.sax</description>
+   <date>2008-12-21</date>
+   </question>
+   <question id="1002">
+   <subject>Python可以寫網路程式嗎?</subject>
+   <description>可以使用Python CGI</description>
+   <date>2008-12-22</date>
+   </question>
+   <question id="1003">
+   <subject>Python可以撰寫Win32 GUI介面的軟體嗎?</subject>
+   <description>可以的!</description>
+   <date>2008-12-22</date>
+   </question>
+</category>
